@@ -10,6 +10,9 @@
 
         $hacer_algo = true;
 
+        // Introduïm un bug: Cridem foo() abans que es defineixi
+        foo();
+
     /* No podemos llamar a foo() desde aquí
     ya que no existe aún,
     pero podemos llamar a bar() */
