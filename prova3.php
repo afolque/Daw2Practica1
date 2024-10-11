@@ -8,7 +8,7 @@
          $marques=array("Volvo","BMW","Toyota");
          $dies_mes=array(31,30,31,30,31,30,31,31,30,31);
 
-         echo "Quin cotxe tens: " . $marques[5] . "<br>";
+         echo "Quin cotxe tens: " . $marques[1] . "<br>";
 
          $anys= array("Pere"=>"35", "Benito"=>"37", "Joel"=>"43");
          echo "Anys Pere: " . $anys['Pere'] . "<br>";
